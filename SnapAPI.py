@@ -10,9 +10,9 @@ import time
 #Google Chrome must be installed on the host computer to run.
 #replace the variables below with the correct values for your use-case
 
-TargetSnapName=""
-Username=""
-Password=""
+TargetSnapName="" #the display username of the person who's chat youd like to find the status of
+Username=""   #your snapchat username
+Password=""   #your snapchat password
 
 options = Options()
 driver = webdriver.Chrome(options=options)
